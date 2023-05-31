@@ -1,5 +1,5 @@
 {
-    "name": "New Controls",
+    "name": "Controles",
     "maps": [
         {
             "name": "jugador",
@@ -10,6 +10,24 @@
                     "type": "Value",
                     "id": "ee92e983-935e-4e15-bab1-bba4e228122e",
                     "expectedControlType": "Dpad",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "salto",
+                    "type": "Value",
+                    "id": "db66590a-6b42-4d2f-80e6-c388aa0519f2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "camara",
+                    "type": "Value",
+                    "id": "9a933808-f570-4d08-a324-5b5555538343",
+                    "expectedControlType": "Axis",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
@@ -123,6 +141,149 @@
                     "processors": "",
                     "groups": "",
                     "action": "movimiento",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "d5a5da84-d398-42e4-828b-b26e1dff7b4c",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "salto",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "xD Axis",
+                    "id": "05f076ad-3f94-4462-b9b5-2fe78b0699cc",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "camara",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "positive",
+                    "id": "ea1b40db-6470-4a57-b55c-a4dd6df23323",
+                    "path": "<Joystick>/stick/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "camara",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "negative",
+                    "id": "78334d2c-e9af-4a69-823d-7202f30ab54b",
+                    "path": "<Joystick>/stick/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "camara",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "yD Axis",
+                    "id": "b0e6b6d9-0b52-4196-918c-e10ed0444aa2",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "camara",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "positive",
+                    "id": "b326ed83-72f0-42cc-972b-d1065830e96d",
+                    "path": "<Joystick>/stick/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "camara",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "negative",
+                    "id": "c9ed7380-cb31-420a-bd3e-a240c63440a6",
+                    "path": "<Joystick>/stick/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "camara",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "mousex",
+                    "id": "394bee8d-ca79-4d9d-ad43-fb963b1079c8",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "camara",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "ea629071-36d3-4830-9f7e-02f0b9bac025",
+                    "path": "<Mouse>/position/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "camara",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "88c26bff-211f-4c1b-9b5a-f2be76a32c0a",
+                    "path": "<Mouse>/position/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "camara",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "mousey",
+                    "id": "74073296-aaa3-4754-8796-e71d09aa23ab",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "camara",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "e8d116e7-a569-433e-aacc-d5a623a99251",
+                    "path": "<Mouse>/position/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "camara",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "50340bea-0d42-4787-a9ed-74bea526f093",
+                    "path": "<Mouse>/position/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "camara",
                     "isComposite": false,
                     "isPartOfComposite": true
                 }

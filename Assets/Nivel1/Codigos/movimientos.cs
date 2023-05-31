@@ -60,5 +60,8 @@ public class movimientos : MonoBehaviour
         {
             animacionActiva = false;
         }
+
+        Debug.Log(pi.actions["camara"].triggered);
+        //pi.actions["camara"].triggered
     }
 }
